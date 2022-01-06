@@ -1,0 +1,31 @@
+.categories {
+    .back-forward {
+        svg {
+            font-size: 45px;
+
+            &:last-child {
+                color: #FF7B29;
+            }
+        }
+    }
+
+    .title {
+        font-size: 54px;
+        font-weight: 700;
+    }
+
+    .category-info {
+        font-size: 16px;
+        color: #949494;
+    }
+
+}
+
+@media screen and (max-width:992px) {
+    .categories {
+        .title {
+            font-size: 32px;
+        }
+    }
+
+}

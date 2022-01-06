@@ -1,0 +1,153 @@
+.maincard {
+    padding-top: 10px;
+
+    .textarea {
+        padding-top: 80px;
+
+        .forblue {
+            color: #263FA3;
+        }
+
+        h1 {
+            font-weight: 700;
+            font-size: 54px;
+            line-height: 65, 83px !important;
+        }
+
+        h5 {
+            font-weight: 600;
+            font-size: 19px;
+            line-height: 30, 75px !important;
+            color: #949494;
+        }
+
+        .button {
+            margin-top: 3%;
+
+            button {
+                background-color: #FF7B29;
+                color: white;
+                padding: 4px 24px;
+                border-radius: 16px;
+                margin-right: 8px;
+
+                &:focus {
+                    box-shadow: 0 0 0 0.25rem #ff7b29d5 !important;
+                }
+            }
+
+            img {
+                height: 45px;
+            }
+
+            p {
+                padding-top: 8px;
+                font-weight: 700;
+            }
+        }
+    }
+
+    .vase {
+        img {
+            height: 400px !important;
+        }
+    }
+
+    .rightSide {
+        padding-top: 80px;
+
+        h3 {
+            font-size: 36px;
+            font-weight: 700;
+        }
+
+        h6 {
+            font-size: 16px;
+            font-weight: 500;
+            color: #949494;
+        }
+
+    }
+
+    .search {
+        background-color: white;
+        border: 1px solid white;
+        padding: 20px 15px;
+        border-radius: 15px;
+
+        label {
+            font-weight: 700;
+            padding-left: 3px;
+            padding-bottom: 5px;
+        }
+
+        select {
+            border: 1px solid transparent;
+            color: #949494;
+        }
+
+        button {
+            svg {
+                margin-right: 5px;
+            }
+
+            border-radius: 10px;
+            background-color: #132742;
+            color: white;
+            width: 150px;
+            height: 60px;
+        }
+    }
+
+    .img-background {
+        img {
+            background-color: white;
+            padding: 5px;
+            border-radius: 10px;
+            box-shadow: 0px 9px rgba(255, 123, 41, 0.1);
+            margin-right: 5px;
+        }
+    }
+}
+
+@media screen and (max-width:992px) {
+    .textarea {
+        text-align: center;
+
+        h1 {
+            font-size: 40px !important;
+        }
+
+        padding-top: 0px !important;
+    }
+
+    .vase {
+        img {
+            margin: auto;
+            display: block;
+        }
+    }
+
+    .rightSide {
+        display: flex;
+        justify-content: space-between;
+
+        h3 {
+            font-size: 20px !important;
+        }
+    }
+
+    .button {
+        justify-content: center;
+    }
+
+    .search {
+        button {
+            margin-top: 5px;
+            height: 50px !important;
+            width: 100% !important;
+
+        }
+    }
+
+}
