@@ -11,6 +11,9 @@ import SecondCard from "./components/SecondCard";
 import Categories from "./components/Categories";
 import Footer from "./components/Footer";
 
+import ThirdCard from "./components/ThirdCard";
+import Subscribe from "./components/Subscribe";
+
 function App() {
   return (
     <div className="App">
@@ -18,6 +21,8 @@ function App() {
       <MainCard></MainCard>
       <SecondCard></SecondCard>
       <Categories></Categories>
+      <ThirdCard></ThirdCard>
+      <Subscribe></Subscribe>
       <Footer></Footer>
     </div>
   );

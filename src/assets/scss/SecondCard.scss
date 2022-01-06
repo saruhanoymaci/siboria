@@ -83,6 +83,8 @@
 
 @media screen and (max-width:992px) {
     .secondCard {
+        margin-top: 50px;
+
         .title {
             h1 {
                 font-size: 30px !important;
@@ -91,7 +93,7 @@
 
         .added {
             .back-forward {
-                padding-right: 0px !important;
+                display: none;
             }
         }
     }

@@ -9,6 +9,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #FAFAFA !important;
+
+  //since we cannot make node_modules style changes in Component ,we change it from the body 
+  .footer {
+    ul {
+      padding-left: 0 !important;
+    }
+  }
 }
 
 code {

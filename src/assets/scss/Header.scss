@@ -9,17 +9,19 @@
 
     ul {
         list-style-type: none;
-        padding-top: 10px;
+        padding-top: 5px;
         display: flex;
         justify-content: space-around;
         padding-left: 0px !important;
 
         li {
+            font-weight: 600;
             cursor: pointer;
             color: grey;
+            border-bottom: 2px solid transparent;
 
             &:hover {
-                font-weight: 700;
+
                 color: black;
                 border-bottom: 2px solid #FF7B29;
             }
@@ -63,7 +65,7 @@
     ul {
         li {
             &:hover {
-                font-weight: 700;
+
                 color: black;
                 border-bottom: 2px solid #FF7B29;
             }
