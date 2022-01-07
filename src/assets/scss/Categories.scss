@@ -1,6 +1,4 @@
 .categories {
-    margin-bottom: 40px;
-
     .back-forward {
         svg {
             font-size: 45px;
@@ -10,6 +8,8 @@
             }
         }
     }
+
+    margin-bottom: 40px;
 
     .title {
         font-size: 54px;
@@ -28,7 +28,6 @@
         border-radius: 10px;
         margin-bottom: 20px;
         position: relative;
-
 
         img {
             position: absolute;
@@ -61,7 +60,6 @@
         h5,
         h6 {
             color: white;
-
             padding-left: 20px;
         }
     }
@@ -80,10 +78,28 @@
         }
     }
 
+    .small {
+        display: none;
+
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            background-color: #FF7B29;
+            border-radius: 50%;
+        }
+    }
+
 }
 
 @media screen and (max-width:992px) {
     .categories {
+        .big {
+            display: none;
+        }
+
+        .small {
+            display: block;
+        }
+
         .title {
             font-size: 32px;
         }
@@ -97,9 +113,7 @@
 
 
             img {
-                right: 20px !important;
-
-
+                right: 50px !important;
             }
         }
     }

@@ -41,7 +41,7 @@ function Footer() {
                             </li>
                         </ul>
                     </div>
-                    <div className="col-lg-3 col-sm-6 col-xs-6">
+                    <div className="col-lg-3 col-sm-6">
                         <ul>
                             <h4>Company</h4>
                             <li>
